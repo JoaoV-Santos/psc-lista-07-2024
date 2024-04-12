@@ -26,8 +26,6 @@ public class Questao01 {
             }
         }
 
-
-
         in.close();
     }
 }
