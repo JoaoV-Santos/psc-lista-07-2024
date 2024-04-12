@@ -7,8 +7,8 @@ public class Questao01 {
         ArrayList<Double> temperaturas = new ArrayList<>();
         String[] meses = {"Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"};
 
-        for (int i = 1; i <= 12; i++) {
-            System.out.println("Informe o valor do temperatura média do mês " + i + ":");
+        for (int i = 0; i < 12; i++) {
+            System.out.println("Informe o valor do temperatura de " + meses[i] + ":");
             temperaturas.add(in.nextDouble());
         }
         double media = 0;
